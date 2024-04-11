@@ -1,0 +1,166 @@
+html {
+	background-image: url("images/leather.jpg");
+	background-repeat: no-repeat;
+}
+* {
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#topTitle {
+	text-align: center;
+	color: goldenrod;
+	-webkit-text-stroke-color: black;
+	-webkit-text-stroke-width: .75px;
+	margin-top: .5em;
+	margin-bottom: .75em;
+}
+#mainBox {
+	border: 1px solid black;
+	position: relative;
+    width: 89%;
+	height: 395px;
+	margin: auto;
+	overflow: auto;
+	background-image: url("images/paper.jpg");
+}
+#rulesDiv {
+	font-size: 2em;
+	padding-left: .9em;
+	padding-right: .95em;
+	padding-top: .55em;
+	padding-bottom: .6em;
+	line-height: 1.5em;
+	width: 93%;
+}
+#rulesDiv h4, #rulesDiv h5 {
+	margin: 0;
+}
+#rulesDiv #green {
+	color: green;
+	-webkit-text-stroke-color: black;
+	-webkit-text-stroke-width: .5px;
+}
+#rulesDiv #yellow {
+	color: yellow;
+	-webkit-text-stroke-color: black;
+	-webkit-text-stroke-width: .5px;
+}
+#rulesDiv #red {
+	color: red;
+	-webkit-text-stroke-color: black;
+	-webkit-text-stroke-width: .5px;
+}
+#reviewDiv #speakVerseButton {
+	background-color: transparent;
+	padding-top: .6em;
+	padding-left: 0;	
+	border: none;
+	cursor: pointer;
+}
+#reviewDiv #reference {
+	display: flex;
+    align-items: flex-start;
+}
+#reviewDiv {
+	width: 93%;
+	min-height: 100px;
+	font-size: 2em;
+	font-weight: bold;
+	padding-left: .9em;
+	padding-right: .95em;
+	padding-top: .67em;
+	padding-bottom: .72em;
+}
+#activityDiv {
+	width: 92.5%;
+	padding-left: 1.8em;
+	padding-right: 2.3em;
+	padding-bottom: .4em;
+}
+#wordDiv {
+	display: inline-flex;
+	flex-wrap: wrap;
+}
+.verseItemSpan {
+	margin: 0.1em;
+	margin-bottom: 0;
+	font-size: 1.5em;
+}
+.selectedWord {
+	border: 1px solid blue;
+}
+.notGuessed {
+	opacity: 0;
+}
+.punct {
+	opacity: 1;
+	color: black;
+}
+.correctlyGuessed {
+	color: green;
+	font-weight: bold;
+	opacity: 1;
+	-webkit-text-stroke-color: black;
+	-webkit-text-stroke-width: .5px;
+}
+.incorrectlyGuessed {
+	color: yellow;
+	font-weight: bold;
+	opacity: 1;
+	-webkit-text-stroke-color: black;
+	-webkit-text-stroke-width: .5px;
+}
+.missingWord{
+	color: red;
+	font-weight: bold;
+	opacity: 1;
+	-webkit-text-stroke-color: black;
+	-webkit-text-stroke-width: .5px;
+}
+.hidden {
+	display: none;
+}
+.visible {
+	display: inline-block;
+}
+.buttonContainer {
+	text-align: center;
+}
+input[type="button"] {
+	font-size: 1em;
+	border: 1px solid black;
+	margin-top: 1.4em;
+	margin-inline: .6em;
+	padding: .6em;
+	width: 15%;
+	background-color: rgb(230,190,138);
+	color: rgb(153,101,21);
+	-webkit-text-stroke-color: black;
+	-webkit-text-stroke-width: .25px;
+	cursor: pointer;
+}
+input[type="button"]:disabled {
+	background-color: rgb(153,101,21);
+	color: rgb(230,190,138);
+	-webkit-text-stroke-color: black;
+	-webkit-text-stroke-width: .25px;
+	cursor: not-allowed;
+}
+#copyrightImage {
+	width: 3.5em; 
+	height: 2em;
+	position: fixed;
+  	bottom: 0;
+  	right: 0;
+	padding-right: 0.5em;
+	padding-bottom: 0.7em;
+}
+#copyrightName {
+	font-size: 1em;
+	color: goldenrod;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	padding-left: 1.2em;
+	-webkit-text-stroke-color: black;
+	-webkit-text-stroke-width: .34px;
+}
