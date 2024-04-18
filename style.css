@@ -146,12 +146,11 @@ input[type="button"]:disabled {
 	cursor: not-allowed;
 }
 #copyrightName {
-	font-size: 1em;
+	font-size: 1.55em;
 	color: goldenrod;
-	position: fixed;
-	bottom: 0;
-	left: 0;
-	padding-left: 1.2em;
+	position: relative;
+	top: 675px;
+	text-align: center;
 	-webkit-text-stroke-color: black;
 	-webkit-text-stroke-width: .34px;
 }
