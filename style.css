@@ -145,15 +145,6 @@ input[type="button"]:disabled {
 	-webkit-text-stroke-width: .25px;
 	cursor: not-allowed;
 }
-#copyrightImage {
-	width: 3.5em; 
-	height: 2em;
-	position: fixed;
-  	bottom: 0;
-  	right: 0;
-	padding-right: 0.5em;
-	padding-bottom: 0.7em;
-}
 #copyrightName {
 	font-size: 1em;
 	color: goldenrod;
